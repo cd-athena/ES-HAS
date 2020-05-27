@@ -1,0 +1,655 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+<node client_id="sw1" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw1a:interface-0"/>
+    <interface client_id="sw1a:interface-2"/>
+    
+    
+    <interface client_id="sw1a:interface-106"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/></node><node client_id="sw2a" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw2a:interface-1"/>
+    <interface client_id="sw2a:interface-4"/>
+    <interface client_id="sw2a:interface-6"/>
+    <interface client_id="sw2a:interface-20"/>
+    
+    <interface client_id="sw2a:interface-80"/>
+    
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/></node><node client_id="sw2b" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw2b:interface-3"/>
+    <interface client_id="sw2b:interface-18"/>
+    <interface client_id="sw2b:interface-21"/>
+    <interface client_id="sw2b:interface-29"/>
+    
+    
+    <interface client_id="sw2b:interface-100"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/></node><node client_id="sw3a" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw3a:interface-5"/>
+    <interface client_id="sw3a:interface-9"/>
+    <interface client_id="sw3a:interface-22"/>
+    <interface client_id="sw3a:interface-72"/>
+    <interface client_id="sw3a:interface-74"/>
+    <interface client_id="sw3a:interface-76"/>
+    <interface client_id="sw3a:interface-10"/>
+    <interface client_id="sw3a:interface-12"/>
+    <interface client_id="sw3a:interface-14"/>
+    <interface client_id="sw3a:interface-16"/>
+    <interface client_id="sw3a:interface-26"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-5"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-7"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-9"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-11"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.16" type="ipv4" netmask="255.255.255.0"/></interface><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-12"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-14"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-16"/></node><node client_id="sw3b" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw3b:interface-7"/>
+    <interface client_id="sw3b:interface-23"/>
+    
+    
+    <interface client_id="sw3b:interface-70"/>
+    <interface client_id="sw3b:interface-32"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/></node><node client_id="sw3d" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw3c:interface-24"/>
+    <interface client_id="sw3c:interface-28"/>
+    <interface client_id="sw3c:interface-90"/>
+    <interface client_id="sw3c:interface-92"/>
+    <interface client_id="sw3c:interface-94"/>
+    <interface client_id="sw3c:interface-34"/>
+    <interface client_id="sw3c:interface-57"/>
+    <interface client_id="sw3c:interface-59"/>
+    <interface client_id="sw3c:interface-61"/>
+    <interface client_id="sw3c:interface-63"/>
+    <interface client_id="sw3c:interface-65"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-59"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-61"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-63"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-64"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-66"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-68"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-71"/></node><node client_id="sw3c" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw3d:interface-19"/>
+    <interface client_id="sw3d:interface-25"/>
+    <interface client_id="sw3d:interface-31"/>
+    
+    
+    <interface client_id="sw3d:interface-89"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/></node><node client_id="sw4a" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw4a:interface-8"/>
+    <interface client_id="sw4a:interface-37"/>
+    <interface client_id="sw4a:interface-39"/>
+    <interface client_id="sw4a:interface-41"/>
+    <interface client_id="sw4a:interface-43"/>
+    <interface client_id="sw4a:interface-44"/>
+    <interface client_id="sw4a:interface-33"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-18"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-20"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-23"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-25"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-27"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-29"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-31"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-32"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-34"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-77"/></node><node client_id="sw4b" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31"/>
+    </sliver_type>
+    <interface client_id="sw4b:interface-30"/>
+    <interface client_id="sw4b:interface-46"/>
+    <interface client_id="sw4b:interface-48"/>
+    <interface client_id="sw4b:interface-50"/>
+    <interface client_id="sw4b:interface-52"/>
+    
+    <interface client_id="sw4b:interface-35"/>
+    <jacks:site id="Site 1"/>
+  <services xmlns="http://www.geni.net/resources/rspec/3"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-37"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-39"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-40"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-42"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-45"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-46"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-49"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-50"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-53"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-55"/><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-56"/></node><node client_id="sw4ac4" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4ac4:interface-38">
+      <ip address="10.10.10.24" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4ac1" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4ac1:interface-45">
+      <ip address="10.10.10.21" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4ac2" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4ac2:interface-42">
+      <ip address="10.10.10.22" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4ac5" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4ac5:interface-36">
+      <ip address="10.10.10.25" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4ac3" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4ac3:interface-40">
+      <ip address="10.10.10.23" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4bc1" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4dc1:interface-47">
+      <ip address="10.10.10.36" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4bc2" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4dc2:interface-49">
+      <ip address="10.10.10.37" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4bc3" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4dc3:interface-51">
+      <ip address="10.10.10.38" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw4bc5" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw4dc5:interface-53">
+      <ip address="10.10.10.40" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="cache3" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <emulab:xen ram="4096" disk="10"/>
+    </sliver_type>
+    <interface client_id="cache3:interface-71">
+      <ip address="10.10.10.4" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/server/server.sh"/></services>
+    <emulab:routable_control_ip/>
+    <jacks:site id="Site 1"/>
+  <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/></node><node client_id="sw3ac1" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac1:interface-73">
+      <ip address="10.10.10.6" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3ac2" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac2:interface-77">
+      <ip address="10.10.10.7" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3ac3" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac3:interface-75">
+      <ip address="10.10.10.8" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="cache1" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <emulab:xen ram="4096" disk="10"/>
+    </sliver_type>
+    <interface client_id="cache1:interface-81">
+      <ip address="10.10.10.2" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/server/server.sh"/></services>
+    <emulab:routable_control_ip/>
+    <jacks:site id="Site 1"/>
+  <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/></node><node client_id="cache4" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <emulab:xen ram="4096" disk="10"/>
+    </sliver_type>
+    <interface client_id="cache4:interface-88">
+      <ip address="10.10.10.5" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/server/server.sh"/></services>
+    <emulab:routable_control_ip/>
+    <jacks:site id="Site 1"/>
+  <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/></node><node client_id="sw3dc2" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc2:interface-93">
+      <ip address="10.10.10.52" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc3" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc3:interface-95">
+      <ip address="10.10.10.53" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc1" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc1:interface-91">
+      <ip address="10.10.10.51" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="cache2" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <emulab:xen ram="4096" disk="10"/>
+    </sliver_type>
+    <interface client_id="cache2:interface-101">
+      <ip address="10.10.10.3" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/server/server.sh"/></services>
+    <emulab:routable_control_ip/>
+    <jacks:site id="Site 1"/>
+  <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/></node><node client_id="server" exclusive="false">
+    <sliver_type name="emulab-xen">
+      <emulab:xen ram="4096" disk="10"/>
+    </sliver_type>
+    <interface client_id="server:interface-107">
+      <ip address="10.10.10.1" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/server/server.sh"/></services>
+    <emulab:routable_control_ip/>
+    <jacks:site id="Site 1"/>
+  <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/server.svg"/></node><node client_id="sw3ac4" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac4:interface-11">
+      <ip address="10.10.10.9" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3ac6" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac6:interface-13">
+      <ip address="10.10.10.11" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3ac5" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac5:interface-15">
+      <ip address="10.10.10.10" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3ac7" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac7:interface-17">
+      <ip address="10.10.10.12" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3ac8" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3ac8:interface-27"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.13" type="ipv4" netmask="255.255.255.0"/></interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc4" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc4:interface-64">
+      <ip address="10.10.10.54" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc5" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc5:interface-62">
+      <ip address="10.10.10.55" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc6" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc6:interface-60"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.56" type="ipv4" netmask="255.255.255.0"/></interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc7" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc7:interface-58">
+      <ip address="10.10.10.57" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node client_id="sw3dc8" exclusive="false">
+    <sliver_type name="emulab-xen"/>
+    <interface client_id="sw3cc8:interface-56">
+      <ip address="10.10.10.58" netmask="255.255.255.0" type="ipv4"/>
+    </interface>
+    <services>
+      
+    <execute shell="sh" command="/local/repository/client.sh"/></services>
+    <jacks:site id="Site 1"/>
+  </node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac9"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-4"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.14" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac10"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-6"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.15" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac11"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-10"/></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac12"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-8"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.17" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac13"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-13"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.18" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac14"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-15"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.19" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3ac15"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-17"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.20" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac6"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-26"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.26" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac7"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-24"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.27" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac8"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-76"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.28" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac9"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-28"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.29" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac10"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-30"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.30" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac11"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-33"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.31" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac12"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-35"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.32" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac13"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-19"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.33" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac14"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-21"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.34" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4ac15"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-22"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.35" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc4"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-36"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.39" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc6"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-38"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.41" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc7"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-41"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.42" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc8"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-43"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.43" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc9"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-44"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.44" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc10"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-47"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.45" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc11"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-48"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.46" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc12"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-51"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.47" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc13"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-52"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.48" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc14"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-54"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.49" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw4bc15"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-57"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.50" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc10"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-62"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.60" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc11"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-60"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.61" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc12"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-58"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.62" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc9"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-65"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.59" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc13"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-67"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.63" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc14"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-69"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.64" type="ipv4" netmask="255.255.255.0"/></interface></node><node xmlns="http://www.geni.net/resources/rspec/3" client_id="sw3dc15"><icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://www.emulab.net/protogeni/jacks-stable/images/default.svg"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="Site 1"/><sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="emulab-xen"/><services xmlns="http://www.geni.net/resources/rspec/3"><execute xmlns="http://www.geni.net/resources/rspec/3" command="/local/repository/client.sh" shell="/bin/sh"/></services><interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-70"><ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.10.65" type="ipv4" netmask="255.255.255.0"/></interface></node><link client_id="link-0">
+    <interface_ref client_id="sw1a:interface-0"/>
+    <interface_ref client_id="sw2a:interface-1"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw1a:interface-0" dest_id="sw2a:interface-1" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2a:interface-1" dest_id="sw1a:interface-0" capacity="100000"/></link><link client_id="link-1">
+    <interface_ref client_id="sw1a:interface-2"/>
+    <interface_ref client_id="sw2b:interface-3"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw1a:interface-2" dest_id="sw2b:interface-3" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2b:interface-3" dest_id="sw1a:interface-2" capacity="100000"/></link><link client_id="link-2">
+    <interface_ref client_id="sw2a:interface-4"/>
+    <interface_ref client_id="sw3a:interface-5"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2a:interface-4" dest_id="sw3a:interface-5" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-5" dest_id="sw2a:interface-4" capacity="100000"/></link><link client_id="link-3">
+    <interface_ref client_id="sw2a:interface-6"/>
+    <interface_ref client_id="sw3b:interface-7"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2a:interface-6" dest_id="sw3b:interface-7" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3b:interface-7" dest_id="sw2a:interface-6" capacity="100000"/></link><link client_id="link-4">
+    <interface_ref client_id="sw4a:interface-8"/>
+    <interface_ref client_id="sw3a:interface-9"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-8" dest_id="sw3a:interface-9" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-9" dest_id="sw4a:interface-8" capacity="100000"/></link><link client_id="link-9">
+    <interface_ref client_id="sw2b:interface-18"/>
+    <interface_ref client_id="sw3d:interface-19"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2b:interface-18" dest_id="sw3d:interface-19" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3d:interface-19" dest_id="sw2b:interface-18" capacity="100000"/></link><link client_id="link-10">
+    <interface_ref client_id="sw2a:interface-20"/>
+    <interface_ref client_id="sw2b:interface-21"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2a:interface-20" dest_id="sw2b:interface-21" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2b:interface-21" dest_id="sw2a:interface-20" capacity="100000"/></link><link client_id="link-11">
+    <interface_ref client_id="sw3a:interface-22"/>
+    <interface_ref client_id="sw3b:interface-23"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-22" dest_id="sw3b:interface-23" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3b:interface-23" dest_id="sw3a:interface-22" capacity="100000"/></link><link client_id="link-12">
+    <interface_ref client_id="sw3c:interface-24"/>
+    <interface_ref client_id="sw3d:interface-25"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-24" dest_id="sw3d:interface-25" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3d:interface-25" dest_id="sw3c:interface-24" capacity="100000"/></link><link client_id="link-15">
+    <interface_ref client_id="sw4b:interface-30"/>
+    <interface_ref client_id="sw3d:interface-31"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4b:interface-30" dest_id="sw3d:interface-31" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3d:interface-31" dest_id="sw4b:interface-30" capacity="100000"/></link><link client_id="link-14">
+    <interface_ref client_id="sw3c:interface-28"/>
+    <interface_ref client_id="sw2b:interface-29"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-28" dest_id="sw2b:interface-29" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2b:interface-29" dest_id="sw3c:interface-28" capacity="100000"/></link><link client_id="link-18">
+    <interface_ref client_id="sw4ac5:interface-36"/>
+    <interface_ref client_id="sw4a:interface-37"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4ac5:interface-36" dest_id="sw4a:interface-37" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-37" dest_id="sw4ac5:interface-36" capacity="100000"/></link><link client_id="link-19">
+    <interface_ref client_id="sw4ac4:interface-38"/>
+    <interface_ref client_id="sw4a:interface-39"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4ac4:interface-38" dest_id="sw4a:interface-39" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-39" dest_id="sw4ac4:interface-38" capacity="100000"/></link><link client_id="link-20">
+    <interface_ref client_id="sw4ac3:interface-40"/>
+    <interface_ref client_id="sw4a:interface-41"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4ac3:interface-40" dest_id="sw4a:interface-41" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-41" dest_id="sw4ac3:interface-40" capacity="100000"/></link><link client_id="link-21">
+    <interface_ref client_id="sw4ac2:interface-42"/>
+    <interface_ref client_id="sw4a:interface-43"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4ac2:interface-42" dest_id="sw4a:interface-43" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-43" dest_id="sw4ac2:interface-42" capacity="100000"/></link><link client_id="link-22">
+    <interface_ref client_id="sw4a:interface-44"/>
+    <interface_ref client_id="sw4ac1:interface-45"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-44" dest_id="sw4ac1:interface-45" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4ac1:interface-45" dest_id="sw4a:interface-44" capacity="100000"/></link><link client_id="link-23">
+    <interface_ref client_id="sw4b:interface-46"/>
+    <interface_ref client_id="sw4dc1:interface-47"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4b:interface-46" dest_id="sw4dc1:interface-47" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4dc1:interface-47" dest_id="sw4b:interface-46" capacity="100000"/></link><link client_id="link-24">
+    <interface_ref client_id="sw4b:interface-48"/>
+    <interface_ref client_id="sw4dc2:interface-49"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4b:interface-48" dest_id="sw4dc2:interface-49" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4dc2:interface-49" dest_id="sw4b:interface-48" capacity="100000"/></link><link client_id="link-25">
+    <interface_ref client_id="sw4b:interface-50"/>
+    <interface_ref client_id="sw4dc3:interface-51"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4b:interface-50" dest_id="sw4dc3:interface-51" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4dc3:interface-51" dest_id="sw4b:interface-50" capacity="100000"/></link><link client_id="link-26">
+    <interface_ref client_id="sw4b:interface-52"/>
+    <interface_ref client_id="sw4dc5:interface-53"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4b:interface-52" dest_id="sw4dc5:interface-53" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4dc5:interface-53" dest_id="sw4b:interface-52" capacity="100000"/></link><link client_id="link-35">
+    <interface_ref client_id="sw3b:interface-70"/>
+    <interface_ref client_id="cache3:interface-71"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3b:interface-70" dest_id="cache3:interface-71" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="cache3:interface-71" dest_id="sw3b:interface-70" capacity="100000"/></link><link client_id="link-36">
+    <interface_ref client_id="sw3a:interface-72"/>
+    <interface_ref client_id="sw3ac1:interface-73"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-72" dest_id="sw3ac1:interface-73" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac1:interface-73" dest_id="sw3a:interface-72" capacity="100000"/></link><link client_id="link-37">
+    <interface_ref client_id="sw3a:interface-74"/>
+    <interface_ref client_id="sw3ac3:interface-75"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-74" dest_id="sw3ac3:interface-75" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac3:interface-75" dest_id="sw3a:interface-74" capacity="100000"/></link><link client_id="link-38">
+    <interface_ref client_id="sw3a:interface-76"/>
+    <interface_ref client_id="sw3ac2:interface-77"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-76" dest_id="sw3ac2:interface-77" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac2:interface-77" dest_id="sw3a:interface-76" capacity="100000"/></link><link client_id="link-40">
+    <interface_ref client_id="sw2a:interface-80"/>
+    <interface_ref client_id="cache1:interface-81"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2a:interface-80" dest_id="cache1:interface-81" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="cache1:interface-81" dest_id="sw2a:interface-80" capacity="100000"/></link><link client_id="link-44">
+    <interface_ref client_id="cache4:interface-88"/>
+    <interface_ref client_id="sw3d:interface-89"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="cache4:interface-88" dest_id="sw3d:interface-89" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3d:interface-89" dest_id="cache4:interface-88" capacity="100000"/></link><link client_id="link-45">
+    <interface_ref client_id="sw3c:interface-90"/>
+    <interface_ref client_id="sw3cc1:interface-91"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-90" dest_id="sw3cc1:interface-91" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc1:interface-91" dest_id="sw3c:interface-90" capacity="100000"/></link><link client_id="link-46">
+    <interface_ref client_id="sw3c:interface-92"/>
+    <interface_ref client_id="sw3cc2:interface-93"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-92" dest_id="sw3cc2:interface-93" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc2:interface-93" dest_id="sw3c:interface-92" capacity="100000"/></link><link client_id="link-47">
+    <interface_ref client_id="sw3c:interface-94"/>
+    <interface_ref client_id="sw3cc3:interface-95"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-94" dest_id="sw3cc3:interface-95" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc3:interface-95" dest_id="sw3c:interface-94" capacity="100000"/></link><link client_id="link-50">
+    <interface_ref client_id="sw2b:interface-100"/>
+    <interface_ref client_id="cache2:interface-101"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw2b:interface-100" dest_id="cache2:interface-101" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="cache2:interface-101" dest_id="sw2b:interface-100" capacity="100000"/></link><link client_id="link-53">
+    <interface_ref client_id="sw1a:interface-106"/>
+    <interface_ref client_id="server:interface-107"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw1a:interface-106" dest_id="server:interface-107" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="server:interface-107" dest_id="sw1a:interface-106" capacity="100000"/></link><link client_id="link-5">
+    <interface_ref client_id="sw3a:interface-10"/>
+    <interface_ref client_id="sw3ac4:interface-11"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-10" dest_id="sw3ac4:interface-11" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac4:interface-11" dest_id="sw3a:interface-10" capacity="100000"/></link><link client_id="link-6">
+    <interface_ref client_id="sw3a:interface-12"/>
+    <interface_ref client_id="sw3ac6:interface-13"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-12" dest_id="sw3ac6:interface-13" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac6:interface-13" dest_id="sw3a:interface-12" capacity="100000"/></link><link client_id="link-7">
+    <interface_ref client_id="sw3a:interface-14"/>
+    <interface_ref client_id="sw3ac5:interface-15"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-14" dest_id="sw3ac5:interface-15" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac5:interface-15" dest_id="sw3a:interface-14" capacity="100000"/></link><link client_id="link-8">
+    <interface_ref client_id="sw3a:interface-16"/>
+    <interface_ref client_id="sw3ac7:interface-17"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-16" dest_id="sw3ac7:interface-17" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac7:interface-17" dest_id="sw3a:interface-16" capacity="100000"/></link><link client_id="link-13">
+    <interface_ref client_id="sw3a:interface-26"/>
+    <interface_ref client_id="sw3ac8:interface-27"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3a:interface-26" dest_id="sw3ac8:interface-27" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3ac8:interface-27" dest_id="sw3a:interface-26" capacity="100000"/></link><link client_id="link-16">
+    <interface_ref client_id="sw3b:interface-32"/>
+    <interface_ref client_id="sw4a:interface-33"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3b:interface-32" dest_id="sw4a:interface-33" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4a:interface-33" dest_id="sw3b:interface-32" capacity="100000"/></link><link client_id="link-17">
+    <interface_ref client_id="sw3c:interface-34"/>
+    <interface_ref client_id="sw4b:interface-35"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-34" dest_id="sw4b:interface-35" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw4b:interface-35" dest_id="sw3c:interface-34" capacity="100000"/></link><link client_id="link-28">
+    <interface_ref client_id="sw3cc8:interface-56"/>
+    <interface_ref client_id="sw3c:interface-57"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc8:interface-56" dest_id="sw3c:interface-57" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-57" dest_id="sw3cc8:interface-56" capacity="100000"/></link><link client_id="link-29">
+    <interface_ref client_id="sw3cc7:interface-58"/>
+    <interface_ref client_id="sw3c:interface-59"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc7:interface-58" dest_id="sw3c:interface-59" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-59" dest_id="sw3cc7:interface-58" capacity="100000"/></link><link client_id="link-30">
+    <interface_ref client_id="sw3cc6:interface-60"/>
+    <interface_ref client_id="sw3c:interface-61"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc6:interface-60" dest_id="sw3c:interface-61" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-61" dest_id="sw3cc6:interface-60" capacity="100000"/></link><link client_id="link-31">
+    <interface_ref client_id="sw3cc5:interface-62"/>
+    <interface_ref client_id="sw3c:interface-63"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc5:interface-62" dest_id="sw3c:interface-63" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-63" dest_id="sw3cc5:interface-62" capacity="100000"/></link><link client_id="link-32">
+    <interface_ref client_id="sw3cc4:interface-64"/>
+    <interface_ref client_id="sw3c:interface-65"/>
+    
+    
+    <jacks:site id="undefined"/>
+  <property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3cc4:interface-64" dest_id="sw3c:interface-65" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="sw3c:interface-65" dest_id="sw3cc4:interface-64" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-41"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-4"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-5"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-4" dest_id="interface-5" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-5" dest_id="interface-4" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-42"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-6"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-7"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-6" dest_id="interface-7" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-7" dest_id="interface-6" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-43"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-8"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-9"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-8" dest_id="interface-9" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-9" dest_id="interface-8" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-48"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-10"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-11"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-10" dest_id="interface-11" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-11" dest_id="interface-10" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-49"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-12"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-13"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-12" dest_id="interface-13" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-13" dest_id="interface-12" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-51"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-14"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-15"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-14" dest_id="interface-15" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-15" dest_id="interface-14" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-52"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-16"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-17"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-16" dest_id="interface-17" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-17" dest_id="interface-16" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-54"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-18"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-19"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-18" dest_id="interface-19" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-19" dest_id="interface-18" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-55"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-20"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-21"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-20" dest_id="interface-21" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-21" dest_id="interface-20" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-56"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-22"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-23"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-22" dest_id="interface-23" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-23" dest_id="interface-22" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-57"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-24"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-25"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-24" dest_id="interface-25" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-25" dest_id="interface-24" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-58"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-26"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-27"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-26" dest_id="interface-27" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-27" dest_id="interface-26" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-59"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-28"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-29"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-28" dest_id="interface-29" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-29" dest_id="interface-28" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-60"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-30"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-31"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-30" dest_id="interface-31" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-31" dest_id="interface-30" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-61"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-32"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-33"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-32" dest_id="interface-33" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-33" dest_id="interface-32" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-62"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-34"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-35"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-34" dest_id="interface-35" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-35" dest_id="interface-34" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-63"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-36"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-37"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-36" dest_id="interface-37" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-37" dest_id="interface-36" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-64"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-38"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-39"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-38" dest_id="interface-39" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-39" dest_id="interface-38" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-65"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-40"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-41"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-40" dest_id="interface-41" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-41" dest_id="interface-40" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-66"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-42"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-43"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-42" dest_id="interface-43" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-43" dest_id="interface-42" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-67"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-44"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-45"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-44" dest_id="interface-45" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-45" dest_id="interface-44" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-68"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-46"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-47"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-46" dest_id="interface-47" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-47" dest_id="interface-46" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-69"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-48"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-49"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-48" dest_id="interface-49" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-49" dest_id="interface-48" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-70"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-50"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-51"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-50" dest_id="interface-51" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-51" dest_id="interface-50" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-71"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-52"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-53"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-52" dest_id="interface-53" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-53" dest_id="interface-52" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-72"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-54"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-55"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-54" dest_id="interface-55" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-55" dest_id="interface-54" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-73"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-56"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-57"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-56" dest_id="interface-57" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-57" dest_id="interface-56" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-74"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-58"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-59"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-58" dest_id="interface-59" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-59" dest_id="interface-58" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-75"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-60"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-61"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-60" dest_id="interface-61" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-61" dest_id="interface-60" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-76"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-62"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-63"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-62" dest_id="interface-63" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-63" dest_id="interface-62" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-77"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-64"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-65"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-64" dest_id="interface-65" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-65" dest_id="interface-64" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-78"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-66"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-67"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-66" dest_id="interface-67" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-67" dest_id="interface-66" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-79"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-68"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-69"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-68" dest_id="interface-69" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-69" dest_id="interface-68" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-80"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-70"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-71"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-70" dest_id="interface-71" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-71" dest_id="interface-70" capacity="100000"/></link><link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-83"><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-76"/><interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-77"/><site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-76" dest_id="interface-77" capacity="100000"/><property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-77" dest_id="interface-76" capacity="100000"/></link><rspec_tour xmlns="http://www.protogeni.net/resources/rspec/ext/apt-tour/1">
+    <description type="markdown">This RSpec contains ubuntu 14 and OVS images for CDN testing</description>
+  </rspec_tour></rspec>
